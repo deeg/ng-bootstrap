@@ -6,7 +6,6 @@
   "author": "https://github.com/ng-bootstrap/ng-bootstrap/graphs/contributors",
   "main": "dist/index.js",
   "scripts": {
-    "install": "node misc/validate-commit.install.js",
     "test": "karma start karma.conf.js",
     "typings": "typings",
     "api-doc-tdd": "jasmine-node misc/api-doc.spec.js --autotest --watch misc/api-doc-test-cases/*.ts misc/api-doc.js"
